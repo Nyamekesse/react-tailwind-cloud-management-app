@@ -27,7 +27,7 @@ const Navbar = () => {
             </button>
             <button className="px-8 py-3">Sign Out</button>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden mr-4">
             {!nav ? (
               <MenuIcon className="w-5" onClick={handleClick} />
             ) : (
@@ -46,7 +46,7 @@ const Navbar = () => {
             <button className="bg-transparent text-indigo-600 px-8 py-3">
               Sign In
             </button>
-            <button className="px-8 py-3">Sign Up</button>
+            <button className="px-8 py-3 my-2">Sign Up</button>
           </div>
         </ul>
       </div>
